@@ -1,0 +1,19 @@
+{
+	"name": "Wait10Secs",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2024-11-20T03:27:22Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}

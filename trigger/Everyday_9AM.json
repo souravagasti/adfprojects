@@ -1,0 +1,24 @@
+{
+	"name": "Everyday_9AM",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Wait10Secs",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2024-11-20T09:00:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}

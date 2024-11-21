@@ -1,0 +1,17 @@
+{
+	"name": "souravagastiadf",
+	"properties": {
+		"globalConfigurations": {
+			"PipelineBillingEnabled": "true",
+			"factoryStagingLSReferenceName": "LS_ABLB",
+			"factoryStagingLSType": "LinkedServiceReference",
+			"factoryStagingFolderPath": "sourav"
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c1a08b5f-c497-438e-abe4-7bb9c0766d5c",
+		"tenantId": "fb6a6c89-e498-4acf-862c-13229ab34490"
+	}
+}
